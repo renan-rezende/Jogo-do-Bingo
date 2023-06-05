@@ -9,7 +9,7 @@ O Bingo é um jogo popular em que os jogadores marcam números em cartelas à me
 ## Funcionalidades do Jogo
 - Escolha dos jogadores: Escolha manualmente quantos e quais são os nomes dos jogadores que participarão.
 - Geração aleatória de números: Os números são gerados aleatoriamente para cada rodada do jogo.
-- Cartela do jogador: Os jogadores recebem uma cartela com seus nomes números específicos.
+- Cartela do jogador: Os jogadores recebem uma cartela com seus nomes e números específicos.
 - Marcação de números: O numeros são marcadas automaticamente com um pequeno intervalo de tempo.
 - Verificação de padrões: O jogo verifica automaticamente se um jogador completou um padrão específico.
 - Vitória: O jogo identifica o primeiro jogador que completou o padrão e declara-o vencedor.
