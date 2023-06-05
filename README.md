@@ -10,7 +10,7 @@ O Bingo é um jogo popular em que os jogadores marcam números em cartelas à me
 
 - Geração aleatória de números: Os números são gerados aleatoriamente para cada rodada do jogo.
 - Cartela do jogador: Os jogadores recebem uma cartela com números específicos.
-- Marcação de números: Os jogadores podem marcar os números da cartela à medida que são chamados.
+- Marcação de números: O numeros são marcadas automaticamente com um pequeno intervalo de tempo.
 - Verificação de padrões: O jogo verifica automaticamente se um jogador completou um padrão específico.
 - Vitória: O jogo identifica o primeiro jogador que completou o padrão e declara-o vencedor.
 
