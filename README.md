@@ -1,6 +1,4 @@
-# Bingo Game 
-
-### ( EM PRODUÇÃO AINDA! )
+# Bingo Game (Ainda está sendo desenvolvido!)
 
 Este é um jogo de Bingo desenvolvido usando HTML, CSS e JavaScript.
 
