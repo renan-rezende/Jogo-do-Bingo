@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-tables.css" />
+    <link rel="stylesheet" href="style-numeros.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="bingo-header">BINGO</h1>
+      <hr />
+    </header>
+    <section>
+      <div class="bloco-1">
+        <main class="main">
+          <div class="informacoes">
+            <div class="q-participantes">
+              <label for="participantes" class="label"
+                >Quantidade de Participantes</label
+              >
+              <input
+                type="number"
+                id="participantes"
+                name="participantes"
+                placeholder="Digite: 1, 2 ou 3"
+                max="3"
+              />
+            </div>
+            <div class="nomes">
+              <label for="nome" class="label">Nome 1</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex: Vinicius"
+                maxlength="10"
+              />
+            </div>
+            <div class="nomes">
+              <label for="nome" class="label">Nome 2</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex: Renan"
+                maxlength="10"
+              />
+            </div>
+            <div class="nomes">
+              <label for="nome" class="label">Nome 3</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Ex: Gabriel"
+                maxlength="10"
+              />
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="gerar" onclick="gerar()">Gerar Cartelas</button>
+            <button id="comecar" onclick="comecar()">Começar</button>
+          </div>
+        </main>
+        <div class="cartelas">
+          <div class="table-container">
+            <h1>Nome</h1>
+            <table class="table-1">
+              <tbody>
+                <tr>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                </tr>
+                <tr>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                </tr>
+                <tr>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                </tr>
+                <tr>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                </tr>
+                <tr>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                  <td class="CT1"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-container">
+            <h1>Nome</h1>
+            <table class="table-2">
+              <tbody>
+                <tr>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                </tr>
+                <tr>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                </tr>
+                <tr>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                </tr>
+                <tr>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                </tr>
+                <tr>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                  <td class="CT2"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-container">
+            <h1>Nome</h1>
+            <table class="table-3">
+              <tbody>
+                <tr>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                </tr>
+                <tr>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                </tr>
+                <tr>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                </tr>
+                <tr>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                </tr>
+                <tr>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                  <td class="CT3"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="numeros-gerados">
+        <div class="numeros-container">
+          <h1>Numeros Gerados</h1>
+          <hr />
+          <table class="tabela-numeros">
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
