@@ -7,9 +7,9 @@ Este é um jogo de Bingo desenvolvido usando HTML, CSS e JavaScript.
 O Bingo é um jogo popular em que os jogadores marcam números em cartelas à medida que são chamados. O objetivo é completar um padrão específico antes dos outros jogadores. Neste jogo de Bingo, os números são gerados aleatoriamente e exibidos em uma tabela.
 
 ## Funcionalidades do Jogo
-
+- Escolha dos jogadores: Escolha manualmente quantos e quais são os nomes dos jogadores que participarão.
 - Geração aleatória de números: Os números são gerados aleatoriamente para cada rodada do jogo.
-- Cartela do jogador: Os jogadores recebem uma cartela com números específicos.
+- Cartela do jogador: Os jogadores recebem uma cartela com seus nomes números específicos.
 - Marcação de números: O numeros são marcadas automaticamente com um pequeno intervalo de tempo.
 - Verificação de padrões: O jogo verifica automaticamente se um jogador completou um padrão específico.
 - Vitória: O jogo identifica o primeiro jogador que completou o padrão e declara-o vencedor.
@@ -25,7 +25,6 @@ O Bingo é um jogo popular em que os jogadores marcam números em cartelas à me
 1. Clone este repositório em sua máquina local.
 2. Abra o arquivo `index.html` no seu navegador.
 3. O jogo será carregado e você poderá iniciar uma nova partida.
-4. Marque os números da sua cartela à medida que forem chamados.
 5. Aguarde até que um padrão seja completado e o vencedor seja declarado.
 
 ## Contribuição
