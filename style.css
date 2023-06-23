@@ -8,14 +8,12 @@
 }
 
 body {
-  background-image: linear-gradient(
-    to top,
-    #7ba588,
-    #7ba386,
-    #548c7d,
-    #446d6b,
-    #436f6c
-  );
+  background-image: linear-gradient(to top,
+      #7ba588,
+      #7ba386,
+      #548c7d,
+      #446d6b,
+      #436f6c);
 
   background-repeat: no-repeat;
 }
@@ -31,11 +29,16 @@ header {
 header h1 {
   color: white;
 }
+
 hr {
   margin: 2vw 2.3vw 2vw 2.3vw;
 }
 
-section {
+.numeros-gerados hr {
+  margin-bottom: 0vw;
+}
+
+.pagina {
   display: flex;
   height: 100%;
 }
@@ -73,11 +76,13 @@ label {
   color: #5b5151;
   font-weight: bold;
 }
+
 .q-participantes {
   display: flex;
   flex-direction: column;
   width: 18vw;
 }
+
 main {
   background-color: #a2d5ab;
   border-radius: 10px;
@@ -113,7 +118,20 @@ main {
   font-size: larger;
   font-weight: bolder;
 }
+
 #comecar {
+  color: #5b5151;
+  margin-left: 1vw;
+  padding-inline: 1vw;
+  background-color: #ffffff;
+  border-width: 3px;
+  border-radius: 6px;
+  border-color: rgb(168, 168, 168);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#sortear {
   color: #5b5151;
   margin-left: 1vw;
   padding-inline: 1vw;

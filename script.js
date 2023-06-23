@@ -2,7 +2,11 @@ var player = [];
 var numerosSorteados = [];
 
 function gerarNumerosAleatorios(quantidade, min, max) {
- 
+  if (quantidade > (max - min)) {
+    console.log("Intervalo insuficiente...");
+    return;
+  }
+
   var numeros = [];
 
   while (numeros.length < quantidade) {
@@ -160,4 +164,3 @@ function reiniciarJogo() {
   var divVencedor = document.getElementById("vencedor");
   divVencedor.innerText = "";
 }
-
